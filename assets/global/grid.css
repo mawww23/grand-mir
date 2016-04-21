@@ -1,0 +1,21 @@
+.grid {
+	margin: 0 auto 34px;
+	width: 1120px;
+	position: relative;
+}
+
+.grid::after {
+	display: block;
+	clear: both;
+	content: '';
+}
+
+.grid__sidebar {
+	width: 262px;
+	float: left;
+}
+
+.grid__main {
+	width: 790px;
+	float: right;
+}

@@ -1,0 +1,147 @@
+-webkit-::input-placeholder {
+	color: #3A3434;
+}
+
+input:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+
+::-moz-placeholder {
+	color: #3A3434;
+}
+
+input:focus::-moz-placeholder {
+	color: transparent;
+}
+
+:-moz-placeholder {
+	color: #3A3434;
+}
+
+input:focus:-moz-placeholder {
+	color: transparent;
+}
+
+:-ms-input-placeholder {
+	color: #3A3434;
+}
+
+input:focus:-ms-input-placeholder {
+	color: transparent;
+}
+
+*::-moz-selection {
+	background: #285c96;
+	color: #f9f9f9;
+}
+
+*::selection {
+	background: #285c96;
+	color: #f9f9f9;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline-color: transparent;
+	font-family: OpenSansRegular, sans-serif;
+}
+
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+address,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+}
+
+*[class*="wrap"]::after,
+article::after,
+aside::after,
+details::after,
+figcaption::after,
+figure::after,
+footer::after,
+header::after,
+hgroup::after,
+main::after,
+menu::after,
+nav::after,
+section::after,
+summary::after {
+	display: block;
+	clear: both;
+	content: '';
+}
+
+html {
+	min-width: 1120px;
+	width: 100%;
+	background-color: #285c96;
+	color: #575757;
+}
+
+body {
+	margin: 0 auto;
+	min-width: inherit;
+	width: 100%;
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer !important;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+
+a:hover {
+	opacity: 0.8;
+}
+
+button {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+
+button:hover {
+	opacity: 0.8;
+}

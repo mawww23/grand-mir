@@ -1,0 +1,115 @@
+.form-contact-us {
+	width: 400px;
+	padding: 20px;
+	border: 1px solid #DCDCDC;
+	background-color: #fafafa;
+}
+
+.form-contact-us__title {
+	display: block;
+	margin-top: 0;
+	margin-bottom: 34px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #285c96;
+	border-bottom: 1px solid #DCDCDC;
+	font-size: 24px;
+	line-height: 2em;
+}
+
+.form-contact-us fieldset {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+}
+
+.form-contact-us input {
+	width: 100%;
+	height: 41px;
+	margin-bottom: 20px;
+	padding: 0 20px;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #dcdcdc;
+}
+
+.form-contact-us textarea {
+	width: 100%;
+	height: 104px;
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #DCDCDC;
+	line-height: 1.2em;
+}
+
+.form-contact-us input:focus,
+.form-contact-us textarea:focus {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+	border-color: #285c96;
+	-webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form-contact-us__status {
+	position: relative;
+	display: none;
+	clear: both;
+	text-align: center;
+	color: #285c96;
+	line-height: 3em;
+	margin-bottom: 20px;
+}
+
+.form-contact-us__btn {
+	position: relative;
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	background-color: #285c96;
+	background-repeat: no-repeat;
+	background-position: right center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	line-height: 38px;
+}
+
+.form-contact-us__btn:hover {}
+
+
+/*VENDOR: jquery-popup-overlay*/
+
+#js-form-contact-us_background {
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.popup_visible #js-form-contact-us_background {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}

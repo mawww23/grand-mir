@@ -1,0 +1,118 @@
+.form-callback {
+	padding: 0px;
+	width: 400px;
+	background-color: #fafafa;
+	padding: 20px;
+	border: 1px solid #DCDCDC;
+}
+
+.form-callback__title {
+	text-transform: uppercase;
+	color: #285c96;
+	border-bottom: 1px solid #DCDCDC;
+	display: block;
+	line-height: 2em;
+	margin-bottom: 34px;
+	font-size: 24px;
+	margin-top: 0;
+	text-align: center;
+}
+
+.form-callback fieldset {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	border: none;
+}
+
+.form-callback input {
+	margin-bottom: 20px;
+	padding: 0 20px;
+	width: 100%;
+	height: 36px;
+	border-width: 1px;
+	border-color: #dcdcdc;
+	border-style: solid;
+	-: 288px;
+	height: 41px;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+
+.form-callback textarea {
+	margin-bottom: 20px;
+	padding: 10px 20px;
+	width: 100%;
+	height: 104px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #DCDCDC;
+	line-height: 1.2em;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+
+.form-callback input:focus,
+.form-callback textarea:focus {
+	border-color: #285c96;
+	-webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.form-callback__status {
+	position: relative;
+	clear: both;
+	color: #285c96;
+	line-height: 3em;
+	text-align: center;
+	display: none;
+	margin-bottom: 20px;
+}
+
+.form-callback__btn {
+	display: block;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	background-color: #285c96;
+	position: relative;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	background-position: right center;
+	background-repeat: no-repeat;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.form-callback__btn:hover {}
+
+
+/*VENDOR: jquery-popup-overlay*/
+
+#js-form-callback_background {
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+.popup_visible #js-form-callback_background {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}

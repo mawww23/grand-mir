@@ -1,0 +1,87 @@
+.partners {
+	width: 100%;
+	padding: 0 1em;
+	background-color: #fff;
+}
+
+.partners__content-wrap {
+	width: 100%;
+	max-width: 1120px;
+	margin: 0 auto;
+	padding: 72px 0 107px;
+}
+
+.partners__title {
+	font-size: 25px;
+	font-weight: 400;
+	display: block;
+	margin-bottom: 59px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #285c96;
+}
+
+.partners__carousel {
+	position: relative;
+	width: 1000px;
+	height: 333px;
+	height: 80px;
+	margin: 0 auto;
+	cursor: -webkit-grab;
+	cursor: -moz-grab;
+	cursor: grab;
+}
+
+.partners__carousel-item {
+	width: auto;
+	height: 80px;
+	margin: 0 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+}
+
+
+/*VENDOR:slick*/
+
+.partners .slick-prev,
+.partners .slick-next {
+	font-size: 0;
+	position: absolute;
+	z-index: 10;
+	top: -webkit-calc(50% - 6px);
+	top: -moz-calc(50% - 6px);
+	top: calc(50% - 6px);
+	width: 32px;
+	height: 32px;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.partners .slick-prev:hover,
+.partners .slick-next:hover {
+	opacity: 1;
+	background-color: #fff;
+}
+
+.partners .slick-prev {
+	left: -60px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAV1BMVEUQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZT////6sB6kAAAAG3RSTlMAVhSZWZyXDZOYcsDKz8N6v3R3bp6dDHNdQxbdBlqLAAAAXElEQVR42u3SuRJAQBCE4Xasm2Xd+v3fUyZReuT88RdMdQ1o9AZA9FEQxRokTCVwzHIFCjp5Q8kKCjiybtqr7gY82UuAgcHYYeSkAQLnRQKs3DTAfvwv9wh0NjgByM0dIbn7SG8AAAAASUVORK5CYII=');
+}
+
+.partners .slick-next {
+	right: -60px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAV1BMVEUQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZQQSZT////6sB6kAAAAG3RSTlMAFFZZmQ2XnJNymMPPysC/end0nm4MnV1zFkMbOwJ6AAAAXElEQVR4Ae3SNxKEUAyDYe0STIZHBt3/nnQ0MDI9/PU3YxcCnZ4AiF4Mfn8HRIw1SFKa84Mx0wA5iysoq7O6IU2CluzkicAeCgwcIcA0M0CBhSsk2PZvcvdA5oMDk/EdD5UrARMAAAAASUVORK5CYII=');
+}
+
+@media screen and (max-width: 1120px) {}
+
+@media screen and (max-width: 640px) {}

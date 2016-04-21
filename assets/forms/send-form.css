@@ -1,0 +1,23 @@
+.js-form textarea {
+	resize: vertical;
+}
+
+.js-form__hidden-placeholder::-webkit-input-placeholder {
+	color: transparent;
+}
+
+.js-form__hidden-placeholder::-moz-placeholder {
+	color: transparent;
+}
+
+.js-form__hidden-placeholder:-moz-placeholder {
+	color: transparent;
+}
+
+.js-form__hidden-placeholder:-ms-input-placeholder {
+	color: transparent;
+}
+
+.js-form__field-invalid {
+	border-color: #F44336 !important;
+}
